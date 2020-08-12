@@ -214,7 +214,7 @@ bool qcgires_redirect(qentry_t *request, const char *uri)
         return false;
     }
 
-    printf("Location: %s%s%s", uri, CRLF CRLF);
+    printf("Location: %s%s%s", uri, CRLF, CRLF);
     return true;
 }
 
